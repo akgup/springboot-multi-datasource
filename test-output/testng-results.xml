@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6135" started-at="2019-03-19T10:12:40Z" finished-at="2019-03-19T10:12:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6135" started-at="2019-03-19T10:12:40Z" finished-at="2019-03-19T10:12:46Z">
+      <class name="com.buzzybrains.MultipleDataSourceApplicationTests">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.buzzybrains.MultipleDataSourceApplicationTests@36d585c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="11" started-at="2019-03-19T10:12:40Z" finished-at="2019-03-19T10:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.buzzybrains.MultipleDataSourceApplicationTests@36d585c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5639" started-at="2019-03-19T10:12:40Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2019-03-19T10:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.buzzybrains.MultipleDataSourceApplicationTests@36d585c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2019-03-19T10:12:46Z" finished-at="2019-03-19T10:12:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.buzzybrains.MultipleDataSourceApplicationTests.testProductCreate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testProductCreate()[pri:0, instance:com.buzzybrains.MultipleDataSourceApplicationTests@36d585c]" name="testProductCreate" duration-ms="413" started-at="2019-03-19T10:12:46Z" finished-at="2019-03-19T10:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.buzzybrains.MultipleDataSourceApplicationTests@36d585c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-03-19T10:12:46Z" finished-at="2019-03-19T10:12:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.buzzybrains.MultipleDataSourceApplicationTests.testProductCreate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.buzzybrains.MultipleDataSourceApplicationTests@36d585c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-03-19T10:12:46Z" finished-at="2019-03-19T10:12:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.buzzybrains.MultipleDataSourceApplicationTests.testUserCreate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testUserCreate()[pri:0, instance:com.buzzybrains.MultipleDataSourceApplicationTests@36d585c]" name="testUserCreate" duration-ms="45" started-at="2019-03-19T10:12:46Z" finished-at="2019-03-19T10:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.buzzybrains.MultipleDataSourceApplicationTests@36d585c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-03-19T10:12:46Z" finished-at="2019-03-19T10:12:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.buzzybrains.MultipleDataSourceApplicationTests.testUserCreate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.buzzybrains.MultipleDataSourceApplicationTests@36d585c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2019-03-19T10:12:46Z" finished-at="2019-03-19T10:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.buzzybrains.MultipleDataSourceApplicationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
